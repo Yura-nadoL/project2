@@ -1,0 +1,56 @@
+// btn ==========================================================================================================================================================================================================================
+.btn {
+   // .btn__link
+
+   &__link {
+      color: $colorWhite;
+      font-family: $fontFamile-secondary;
+      line-height: 150%;
+      letter-spacing: 0.024px;
+      border-radius: 5px;
+      background-color: $colorSecondary;
+      padding: 13px;
+      text-align: center;
+      width: 100%;
+
+      &:hover {
+         background-color: #bb6153;
+      }
+   }
+}
+
+// content-item ==========================================================================================================================================================================================================================
+.content-item {
+   // .content-item__title
+
+   &__title {
+      font-weight: 600;
+      line-height: 160%;
+
+      &:not(:last-child) {
+         margin-bottom: 10px;
+      }
+   }
+
+   // .content-item__text
+
+   &__text {
+      font-family: $fontFamile-secondary;
+      line-height: 160%;
+      letter-spacing: 0.024px;
+
+      &:not(:last-child) {
+         margin-bottom: 10px;
+      }
+   }
+}
+
+// title ==========================================================================================================================================================================================================================
+.title {
+   color: $colorSecondary;
+   font-size: 22px;
+   font-weight: 600;
+   line-height: 130%;
+   letter-spacing: 1.32px;
+   text-transform: uppercase;
+}
